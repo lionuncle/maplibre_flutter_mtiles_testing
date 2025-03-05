@@ -11,7 +11,8 @@ Tasks:
 
     b. This page should display the provided sample synthetic.mbtiles file from local storage.
 
-    c. Sample File Location: maplibre_flutter_mbtiles_testing/maplibre_gl_example/assets/synthetic.mbtiles
+Sample File:
+```maplibre_flutter_mbtiles_testing/maplibre_gl_example/assets/synthetic.mbtiles```
  
    d. Add the following two map control buttons to the right side of the map interface at 50% transparency.
 
