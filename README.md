@@ -4,7 +4,7 @@ Please create a private fork of this repository and perform the following modifi
 
 Tasks:
 1. Clone this repository
-2. Set up your local development environemnt for flutter
+2. Set up your local development environment for flutter
 3. Modify the maplibre_gl_example app main page as follows
 
     a. Create a new example page named "Offline MBTiles"
