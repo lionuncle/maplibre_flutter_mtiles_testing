@@ -1,4 +1,4 @@
-This is a fork of flutter_maplibre_gl set up for developer evaluation.
+<b>This is a fork of flutter_maplibre_gl set up for developer evaluation.
 
 Please create a private fork of this repository and perform the following modifications. When finished, please add StrikeLines as a collaborator on your repository so we can check your code.
 
@@ -21,6 +21,7 @@ Tasks:
 
 5. Ensure your code compiles and runs correctly on Android.
 6. Add StrikeLines as a collaborator to your repository for code review.
+   </b>
 
 
 # Flutter MapLibre GL
