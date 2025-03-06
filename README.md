@@ -13,6 +13,8 @@ Tasks:
 
 Sample File:
 ```maplibre_flutter_mbtiles_testing/maplibre_gl_example/assets/synthetic.mbtiles```
+
+MBTiles Hint: https://github.com/maplibre/flutter-maplibre-gl/issues/318#issuecomment-1772970075
  
    d. Add the following two map control buttons to the right side of the map interface at 50% transparency.
 
