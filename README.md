@@ -27,6 +27,11 @@ Sample File:
 The sample MBtiles file will render in the Gulf of Mexico like this outlined area when loaded correctly: 
 ![synthetic.mbtiles](https://github.com/StrikeLines/maplibre_flutter_mtiles_testing/blob/main/mbtiles%20region.PNG)
 
+Here is what it should look like when rendered in the app: 
+
+![mbtiles flutter](https://raw.githubusercontent.com/StrikeLines/maplibre_flutter_mtiles_testing/refs/heads/main/Correct%20Mbtiles%20Implementation.PNG)
+
+
 
 
 
