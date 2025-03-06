@@ -24,6 +24,12 @@ Sample File:
 6. Add StrikeLines as a collaborator to your repository for code review.
    </b>
 
+The sample MBtiles file will render in the Gulf of Mexico like this outlined area when loaded correctly: 
+![synthetic.mbtiles](https://github.com/StrikeLines/maplibre_flutter_mtiles_testing/blob/main/mbtiles%20region.PNG)
+
+
+
+
 
 # Flutter MapLibre GL
 
