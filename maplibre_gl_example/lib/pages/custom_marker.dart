@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart'; // ignore: unnecessary_import
 import 'package:maplibre_gl/maplibre_gl.dart';
 
-import 'page.dart';
+import '../page.dart';
 
 const randomMarkerNum = 100;
 

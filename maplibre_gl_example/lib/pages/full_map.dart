@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:maplibre_gl/maplibre_gl.dart';
 
-import 'page.dart';
+import '../page.dart';
 
 const _nullIsland = CameraPosition(target: LatLng(0, 0), zoom: 4.0);
 
