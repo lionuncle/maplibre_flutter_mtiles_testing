@@ -1,0 +1,52 @@
+import 'package:maplibre_gl_example/pages/attribution.dart';
+import 'package:maplibre_gl_example/pages/get_map_informations.dart';
+import 'package:maplibre_gl_example/pages/given_bounds.dart';
+import 'package:maplibre_gl_example/pages/localized_map.dart';
+import 'package:maplibre_gl_example/pages/no_location_permission_page.dart';
+import 'package:maplibre_gl_example/pages/animate_camera.dart';
+import 'package:maplibre_gl_example/pages/annotation_order_maps.dart';
+import 'package:maplibre_gl_example/pages/click_annotations.dart';
+import 'package:maplibre_gl_example/pages/custom_marker.dart';
+import 'package:maplibre_gl_example/pages/full_map.dart';
+import 'package:maplibre_gl_example/pages/layer.dart';
+import 'package:maplibre_gl_example/pages/line.dart';
+import 'package:maplibre_gl_example/pages/local_style.dart';
+import 'package:maplibre_gl_example/pages/map_ui.dart';
+import 'package:maplibre_gl_example/pages/move_camera.dart';
+import 'package:maplibre_gl_example/pages/offline_mbtiles_page.dart';
+import 'package:maplibre_gl_example/pages/offline_regions.dart';
+import 'package:maplibre_gl_example/pages/place_batch.dart';
+import 'package:maplibre_gl_example/pages/place_circle.dart';
+import 'package:maplibre_gl_example/pages/place_fill.dart';
+import 'package:maplibre_gl_example/pages/place_source.dart';
+import 'package:maplibre_gl_example/pages/place_symbol.dart';
+import 'package:maplibre_gl_example/pages/scrolling_map.dart';
+import 'package:maplibre_gl_example/pages/sources.dart';
+import 'package:maplibre_gl_example/page.dart';
+
+final List<ExamplePage> allPages = <ExamplePage>[
+  const OfflineMbtilesPage(),
+  const MapUiPage(),
+  const FullMapPage(),
+  const LocalizedMapPage(),
+  const AnimateCameraPage(),
+  const MoveCameraPage(),
+  const PlaceSymbolPage(),
+  const PlaceSourcePage(),
+  const LinePage(),
+  const LocalStylePage(),
+  const LayerPage(),
+  const PlaceCirclePage(),
+  const PlaceFillPage(),
+  const ScrollingMapPage(),
+  const OfflineRegionsPage(),
+  const AnnotationOrderPage(),
+  const CustomMarkerPage(),
+  const BatchAddPage(),
+  const ClickAnnotationPage(),
+  const Sources(),
+  const GivenBoundsPage(),
+  const GetMapInfoPage(),
+  const NoLocationPermissionPage(),
+  const AttributionPage(),
+];
