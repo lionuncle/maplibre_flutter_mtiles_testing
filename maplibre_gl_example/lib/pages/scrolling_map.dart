@@ -7,9 +7,9 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart'; // ignore: unnecessary_import
 import 'package:maplibre_gl/maplibre_gl.dart';
-import 'package:maplibre_gl_example/util.dart';
+import 'package:maplibre_gl_example/utils/util.dart';
 
-import 'page.dart';
+import '../page.dart';
 
 class ScrollingMapPage extends ExamplePage {
   const ScrollingMapPage({super.key})

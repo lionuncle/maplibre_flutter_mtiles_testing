@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:maplibre_gl/maplibre_gl.dart';
 
-import 'page.dart';
+import '../page.dart';
 
 class PlaceSourcePage extends ExamplePage {
   const PlaceSourcePage({super.key})
