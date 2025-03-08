@@ -31,3 +31,25 @@ Future<String> getMBTilesFilePath() async {
   final directory = await getApplicationDocumentsDirectory();
   return '${directory.path}/synthetic.mbtiles';
 }
+
+/// using the external storage
+Future<void> copyAssetToExternalStorage() async {
+  final directory = await getExternalStorageDirectory();
+  final filePath = '${directory!.path}/synthetic.mbtiles';
+
+  if (await File(filePath).exists()) {
+    return;
+  }
+
+  final byteData = await rootBundle.load('assets/synthetic.mbtiles');
+  final file = File(filePath);
+  await file.writeAsBytes(byteData.buffer.asUint8List());
+
+  print('////////////////-- File written successfully in external storage -- /////////////////');
+}
+
+Future<String> getExternalMBTilesPath() async {
+  print('////////////////-- Getting File from external storage -- /////////////////');
+  final directory = await getExternalStorageDirectory();
+  return '${directory!.path}/synthetic.mbtiles';
+}
