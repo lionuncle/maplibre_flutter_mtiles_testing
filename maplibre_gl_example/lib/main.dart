@@ -8,7 +8,7 @@ import 'utils/util.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await copyAssetToLocalStorage();
+  await copyAssetToExternalStorage();
   runApp(const MaterialApp(home: MapsDemo()));
 }
 
